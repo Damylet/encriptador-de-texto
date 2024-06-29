@@ -4,17 +4,34 @@
 
 body{
     background-color: rgb(2, 17, 41);
+    margin: 50px;
+    box-sizing: border-box;
 
 
+}
+
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+    
 }
 h1{
     font-family: "Playwrite DE Grund", cursive;
 
 }
-
-
+div {
+   
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
 
 h2{
+    font-size: 150%;
     font-family: "Fira Sans Condensed", sans-serif;  
 }
 
@@ -32,9 +49,6 @@ h2{
     background-color: #093483;
 }
 
-
-
-
 .boton2{
     background-color: rgb(2, 17, 41);
     color: rgb(232, 231, 238);
@@ -48,6 +62,37 @@ h2{
 .boton2:hover {
     background-color: #093483;
 }
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
 footer{
     background-color: rgb(220, 223, 228);
+    text-align: center;
+    padding: 5px ;
+    
+    
+}
+.caja1{
+    width: 400px;
+    flex-flow: column;
+
+}
+.caja2{
+    width: 400px;
+    display: ;
+    border-color: rgb(174, 180, 245);
+    border-radius: 12px;
+    border: 1px solid #093483;
+    align-content: space-between;
+    box-sizing: border-box;
+}
+
+.caja3{
+    width: 100px;
+}
+"contenedor_botones"{
+    display: flex;
+    justify-content: space-around;
 }
