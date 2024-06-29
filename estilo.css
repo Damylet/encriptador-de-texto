@@ -22,7 +22,6 @@ h1{
 
 }
 div {
-   
     width: 300px;
     margin: 10px;
     text-align: center;
@@ -81,7 +80,7 @@ footer{
 }
 .caja2{
     width: 400px;
-    display: ;
+    display: flex;
     border-color: rgb(174, 180, 245);
     border-radius: 12px;
     border: 1px solid #093483;
@@ -92,7 +91,7 @@ footer{
 .caja3{
     width: 100px;
 }
-"contenedor_botones"{
+.boton1{
     display: flex;
     justify-content: space-around;
 }
