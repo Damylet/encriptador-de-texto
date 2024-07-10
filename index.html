@@ -4,39 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENCRIPTADOR DE TEXTO DAMYLET MIRENA</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="asset/estilo.css">
 </head>
 <body>
     <header></header>
 
-<div class="Logo"></div>
-    <IMG src="Logo (1).png" alt="Logo de Alura Latam">
+<div class="Logo">
+    <IMG src="asset/Logo (1).png" alt="Logo de Alura Latam">
+</div>
     
-    <main class="contenedor1">
     
-       
-    <section class="caja1">
-            <h1> Ingresa el texto aqui </h1>
+    
+        <main class="contenedor1">
 
-            <h6> Solo texto en minúsculas y sin acentos</h6>
-        <div class="contenedor_botones">
-            <a class="boton1"> Encriptar </a>
-            <a class="boton2"> Desencriptar </a>
-            
-        </div>
-    </section>
-    <div class="caja2">
-        <div class="caja3">
-        <img src="Muñeco.png" alt="Muñeco sentado viendo un diamante con una lupa">   
-        </div>
-            <h2><strong>Ningún mensaje fue encontrado </strong></h2>
+            <div class="caja1">
+                <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+                <h6> ! Solo texto en minúsculas y sin acentos</h6>
+                <div>
+                    <button onclick="encryptText()">Encriptar</button>
+                    <button onclick="decryptText()">Desencriptar</button>
+                </div>
+            </div>
+           
+            <div class="caja2">
+                <div class="caja3">
+                    
+                </div>
+                <textarea id="outputText" placeholder="Resultado..." readonly></textarea>
 
-            <h3> Ingresa el texto que desees encriptar o desencriptar </h3>
-        </div>
+                <!--<img src= "asset/Muñeco.png" alt="Muñeco sentado viendo un diamante con una lupa">-->
+                <p><strong>Ningún mensaje fue encontrado </strong></p>
+                    <p> Ingresa el texto que desees encriptar o desencriptar </p>
+            </div>
     </main>
-<footer>
+
     
-   <h4> <img src="" alt="icono"> Creado por Damylet Mirena agosto 2024 </h4>
+<footer class="footer">
+    
+   <h4>  &copy; Desarrollador Damylet Mirena    Agosto 2024 </h4>
 </footer>
+<script src="asset/funcion.js"></script>
 </body>
 </html>

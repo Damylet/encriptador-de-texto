@@ -4,37 +4,29 @@
 
 body{
     background-color: rgb(2, 17, 41);
-    margin: 50px;
-    box-sizing: border-box;
-
-
-}
-
-.contenedor1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     margin: 5%;
-    
+    padding: 600;
 }
+
 h1{
     font-family: "Playwrite DE Grund", cursive;
+    color: whitesmoke;
 
 }
-div {
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+
+p{
+    font-size: 15px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: whitesmoke;  
 }
 
-h2{
-    font-size: 150%;
-    font-family: "Fira Sans Condensed", sans-serif;  
+h6{
+    color: whitesmoke;
+    margin: 2%;
+    
 }
-
-.boton1{
+/* NO TOCAR POR NADA DEL MUNDO ELLOS ESTAN PERFECTOS*/
+button{
     background-color: rgb(2, 17, 41);
     color: rgb(232, 231, 238);
     border: 2px solid #093483;
@@ -44,54 +36,42 @@ h2{
     font-size: 15px;
     cursor: pointer;
 }
-.boton1:hover {
+button:hover {
     background-color: #093483;
 }
 
-.boton2{
-    background-color: rgb(2, 17, 41);
-    color: rgb(232, 231, 238);
-    border: 2px solid #093483;
-    font-family: "Fira Sans Condensed", sans-serif;
-    border-radius: 12px;
-    padding: 10px 20px;
-    font-size: 15px;
-    cursor: pointer;
-}
-.boton2:hover {
-    background-color: #093483;
-}
-.botones{
-    display: flex;
-    justify-content: space-between;
-}
 
-footer{
-    background-color: rgb(220, 223, 228);
-    text-align: center;
-    padding: 5px ;
-    
-    
-}
-.caja1{
-    width: 400px;
-    flex-flow: column;
 
-}
 .caja2{
     width: 400px;
     display: flex;
     border-color: rgb(174, 180, 245);
     border-radius: 12px;
     border: 1px solid #093483;
-    align-content: space-between;
-    box-sizing: border-box;
+    overflow: visible;
 }
 
-.caja3{
-    width: 100px;
+/* NO TOCAR ESTE CODIGO ESTA PERFECTO*/
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgb(232, 231, 238);
+   color: rgb(41, 42, 78);
+   text-align: center;
+    
 }
-.boton1{
+.contenedor1{
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
+
+}
+textarea{
+    background-color: rgb(2, 17, 41);
+    color: rgb(232, 231, 238);
+    border-color: rgb(2, 17, 41);
+
+
 }
