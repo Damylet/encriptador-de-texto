@@ -94,15 +94,18 @@ textarea{
     
 }
 #muñeco{
-    
+    margin-bottom: 30px;
     justify-content: center;
     width: 10rem;
     height: 10rem;
 }
 .contenedor2{
-  align-items: stretch;
+    align-content: space-between;
+    align-items: stretch;
     position: absolute;
     column-count: 1;
+    flex-wrap:  wrap-reverse;
+    padding: 50px;
 }
 #outputText{
       border: none;
