@@ -7,6 +7,7 @@ function encryptText() {
         .replace(/o/g, 'ober')
         .replace(/u/g, 'ufat');
     document.getElementById('outputText').value = encryptedText;
+    hideElements();
 }
 
 function decryptText() {
@@ -18,6 +19,12 @@ function decryptText() {
         .replace(/ober/g, 'o')
         .replace(/ufat/g, 'u');
     document.getElementById('outputText').value = decryptedText;
+    hideElements();
+}
+function hideElements() {
+    document.getElementById('muñeco').style.display = 'none';
+    document.getElementById('mensaje1').style.display = 'none';
+    document.getElementById('mensaje2').style.display = 'none';
 }
 
 

@@ -8,19 +8,21 @@ body{
     padding: 600;
 }
 
-h1{
+#placeholder{
     font-family: "Playwrite DE Grund", cursive;
     color: whitesmoke;
 
 }
 
 p{
-    font-size: 15px;
+    font-size: 1rem;
     font-family: "Fira Sans Condensed", sans-serif;
-    color: whitesmoke;  
+    color: whitesmoke;
+    text-align: center;  
 }
 
 h6{
+    font-size: 0.6rem;
     color: whitesmoke;
     margin: 2%;
     
@@ -39,39 +41,83 @@ button{
 button:hover {
     background-color: #093483;
 }
-
-
-
+.caja1{
+    width: 350px;
+}
+#inputText{
+    width: 25rem;
+    height: 23rem;
+}
 .caja2{
-    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 20rem;
+    height: 28rem;
     display: flex;
-    border-color: rgb(174, 180, 245);
     border-radius: 12px;
     border: 1px solid #093483;
-    overflow: visible;
+    
 }
 
 /* NO TOCAR ESTE CODIGO ESTA PERFECTO*/
 .footer{
+
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
    background-color:rgb(232, 231, 238);
    color: rgb(41, 42, 78);
-   text-align: center;
-    
+   text-align: center; 
+}
+h4{
+    font-size: 0.8rem;
+    margin: 0.5rem;
 }
 .contenedor1{
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
-
+    
 }
 textarea{
+    border: none;
+    outline: none;
     background-color: rgb(2, 17, 41);
     color: rgb(232, 231, 238);
-    border-color: rgb(2, 17, 41);
-
-
+    border-color: none;
+    font-family: "Fira Sans Condensed", sans-serif;
+   
+    border-radius: 12px;
+    
+}
+#muñeco{
+    
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+}
+.contenedor2{
+  align-items: stretch;
+    position: absolute;
+    column-count: 1;
+}
+#outputText{
+      border: none;
+      outline: none;
+      resize: none;
+      width: 18rem;
+      height: 28rem;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 16px;
+      margin-top: 20px;
+}
+#mensaje1{
+    font-size: 1.2rem;
+}
+#mensaje2{
+    font-size: 1rem;
 }
