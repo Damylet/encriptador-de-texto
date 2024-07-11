@@ -5,7 +5,7 @@
 body{
     background-color: rgb(2, 17, 41);
     margin: 5%;
-    padding: 600;
+    padding: 0;
 }
 
 #placeholder{
@@ -111,8 +111,9 @@ textarea{
       border: none;
       outline: none;
       resize: none;
-      width: 18rem;
-      height: 28rem;
+      width: 100%;
+      height: auto;
+      min-height: 150px;
       padding: 10px;
       box-sizing: border-box;
       font-size: 16px;
