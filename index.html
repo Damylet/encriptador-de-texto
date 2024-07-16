@@ -10,39 +10,35 @@
 <body>
     <header></header>
 
-<div class="Logo">
-    <IMG src="asset/Logo (1).png" alt="Logo de Alura Latam">
-</div>
-    
-    
-    
-        <main class="contenedor1">
+    <div class="Logo">
+        <img src="asset/Logo (1).png" alt="Logo de Alura Latam">
+    </div>
 
+    <main class="container">
+        <div class="row">
             <div class="caja1 col-12 col-md-6 mb-4">
                 <textarea id="inputText" placeholder="ingresa el texto aquí..."></textarea>
-                <h6> ! Solo texto en minúsculas y sin acentos</h6>
+                <h6>! Solo texto en minúsculas y sin acentos</h6>
                 <div>
                     <button onclick="encryptText()">Encriptar</button>
                     <button onclick="decryptText()">Desencriptar</button>
                 </div>
             </div>
-           
+
             <div class="caja2 col-12 col-md-6 mb-4">
-               
                 <textarea id="outputText" placeholder="" readonly></textarea>
-           <div class="contenedor2">
-                <img  id="muñeco" src="asset/Muñeco.png" alt="Muñeco sentado viendo un diamante con una lupa">
-            <p id="mensaje1"><strong>Ningún mensaje fue <br>encontrado</strong></p>
-            <p id="mensaje2">Ingresa el texto que desees <br>encriptar o desencriptar</p>
-        </div>
+                <div class="contenedor2">
+                    <img id="muñeco" src="asset/Muñeco.png" alt="Muñeco sentado viendo un diamante con una lupa">
+                    <p id="mensaje1"><strong>Ningún mensaje fue <br>encontrado</strong></p>
+                    <p id="mensaje2">Ingresa el texto que desees <br>encriptar o desencriptar</p>
+                </div>
             </div>
+        </div>
     </main>
 
-    
-<footer class="footer">
-    
-   <h4>  &copy; Desarrollador Damylet Mirena    Agosto 2024 </h4>
-</footer>
-<script src="asset/funcion.js"></script>
+    <footer class="footer">
+        <h4>&copy; Desarrollador Damylet Mirena Agosto 2024</h4>
+    </footer>
+    <script src="asset/funcion.js"></script>
 </body>
 </html>

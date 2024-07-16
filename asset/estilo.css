@@ -1,34 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+DE+Grund:wght@100..400&display=swap');
 
-body{
+body {
     background-color: rgb(2, 17, 41);
     margin: 5%;
     padding: 0;
 }
 
-#placeholder{
+#placeholder {
     font-family: "Playwrite DE Grund", cursive;
     color: whitesmoke;
-
 }
 
-p{
+p {
     font-size: 1rem;
     font-family: "Fira Sans Condensed", sans-serif;
     color: whitesmoke;
     text-align: center;  
 }
 
-h6{
+h6 {
     font-size: 0.6rem;
     color: whitesmoke;
     margin: 2%;
-    
 }
-/* NO TOCAR POR NADA DEL MUNDO ELLOS ESTAN PERFECTOS*/
-button{
+
+/* NO TOCAR POR NADA DEL MUNDO ELLOS ESTAN PERFECTOS */
+button {
     background-color: rgb(2, 17, 41);
     color: rgb(232, 231, 238);
     border: 2px solid #093483;
@@ -38,90 +36,96 @@ button{
     font-size: 15px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #093483;
 }
-.caja1{
-    width: 350px;
+
+.caja1 {
+    width: 60%;
 }
-#inputText{
-    width: 25rem;
+
+#inputText {
+    width: 100%;
     height: 23rem;
 }
-.caja2{
+
+.caja2 {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 20rem;
+    width: 40%;
     height: 28rem;
     display: flex;
     border-radius: 12px;
     border: 1px solid #093483;
-    
 }
 
-/* NO TOCAR ESTE CODIGO ESTA PERFECTO*/
-.footer{
-
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color:rgb(232, 231, 238);
-   color: rgb(41, 42, 78);
-   text-align: center; 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(232, 231, 238);
+    color: rgb(41, 42, 78);
+    text-align: center;
 }
-h4{
+
+h4 {
     font-size: 0.8rem;
     margin: 0.5rem;
 }
-.contenedor1{
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    
-}
-textarea{
+
+textarea {
     border: none;
     outline: none;
     background-color: rgb(2, 17, 41);
     color: rgb(232, 231, 238);
     border-color: none;
     font-family: "Fira Sans Condensed", sans-serif;
-   
     border-radius: 12px;
-    
 }
-#muñeco{
+
+#muñeco {
     margin-bottom: 30px;
     justify-content: center;
     width: 10rem;
     height: 10rem;
 }
-.contenedor2{
+
+.contenedor2 {
     align-content: space-between;
     align-items: stretch;
     position: absolute;
     column-count: 1;
-    flex-wrap:  wrap-reverse;
+    flex-wrap: wrap-reverse;
     padding: 50px;
 }
-#outputText{
-      border: none;
-      outline: none;
-      resize: none;
-      width: 100%;
-      height: auto;
-      min-height: 150px;
-      padding: 10px;
-      box-sizing: border-box;
-      font-size: 16px;
-      margin-top: 20px;
+
+#outputText {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 20px;
 }
-#mensaje1{
+
+#mensaje1 {
     font-size: 1.2rem;
 }
-#mensaje2{
+
+#mensaje2 {
     font-size: 1rem;
+}
+
+/* Añadir media queries para hacer que las cajas se apilen en móviles */
+@media (max-width: 768px) {
+    .contenedor1 {
+        flex-direction: column;
+    }
 }
