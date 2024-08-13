@@ -21,10 +21,16 @@ function decryptText() {
     document.getElementById('outputText').value = decryptedText;
     hideElements();
 }
-function hideElements() {
+function  hideElements() {
+    document.getElementById('outputText').style.opacity = 1;
     document.getElementById('muñeco').style.display = 'none';
-    document.getElementById('mensaje1').style.display = 'none';
-    document.getElementById('mensaje2').style.display = 'none';
+    document.getElementById('texto1').style.display = 'none';
+    document.getElementById('texto2').style.display = 'none';
 }
-
+function copiarText() {
+    const outputText = document.getElementById('outputText');
+    outputText.select();
+    document.execCommand('copy');
+    alert('Texto copiado al portapapeles');
+}
 
