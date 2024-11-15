@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-
+<div class="contenedor-grid">
         <!-- ENCABAZADO -->
     <header>
         <img src="asset/Logo (1).png" alt="Logo de Alura Latam"  class="logo">
+        <h1> Encriptador de Texto</h1>
    </header>
 
-
-
-    <main >
+   <main  class="seccion">
          <!-- PRIMERA SECCIÓN -->
         <section class="encriptador">
                 <textarea class="encriptar" id="inputText" placeholder="ingresa el texto aquí..."></textarea>
@@ -34,22 +33,33 @@
          <!-- SEGUNDA SECCIÓN -->
             <section class="mensaje">
 
-                <textarea class="mensaje-encriptado" id="outputText" placeholder="" readonly></textarea>
+                <textarea class="mensaje-encriptado" id="outputText" placeholder="
+                  " readonly>
+                
+
+                 
+                
+                </textarea>
+                <div  id="contenido">
                 <img  id="muñeco" src="asset/Muñeco.png" alt=" Muñeco con lupa en mano">
                 <div class="texto">
-                    <p id="texto1"><strong>Ningún mensaje fue <br>encontrado</strong></p>
-                    <p id="texto2">Ingresa el texto que desees <br>encriptar o desencriptar</p>
+                    <p id="texto1"><strong>Ningún mensaje fue encontrado</strong></p>
+                    <p id="texto2">Ingresa el texto que desees encriptar o desencriptar</p>
                 </div>
+            </div>
+               
+
                <div class="btn-copiar">
                 <button onclick="copiarText()">Copiar</button>
             </div>
-        </section>
+        </section>   
     </main>
-    
 <!-- PIE DE PAGINA -->
     <footer class="footer">
         <h4> &copy; Desarrollado por  Damylet Mirena Agosto 2024</h4>
     </footer>
+
+</div>
     <script src="asset/funcion.js"></script>
 </body>
 </html>
