@@ -28,7 +28,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 500px;
     background: var(--light-blue) ;
 }
 
@@ -38,7 +38,7 @@ header{
 
     display: flex;
     justify-content: flex-start;
-    margin: 25px 50px 0 50px;
+    margin: 80px 50px 25px 50px;
     gap: 30%;
     
    
@@ -46,8 +46,8 @@ header{
 
 .logo{
 
-    height: 80px;
-    width: 150px;
+    height: 60px;
+    width: 100px;
 
 }
 h1{
@@ -58,6 +58,7 @@ h1{
 }
 
 .seccion{
+    height: 60%;
     display: flex;
     justify-content: center;
     gap: 10px 5px;
@@ -80,7 +81,7 @@ main{
 
 .encriptar{
     margin-left: 50px;
-    width: 660px ;
+    width: 550px ;
     height: 380px;
     font-size: 28px ;
     line-height: 48px ;
@@ -100,7 +101,7 @@ main{
     #muñeco{
     height: 35%;
         position: absolute;
-        top: 22%;
+        top: 32%;
         left: 70%;
         z-index: 2;
     }
@@ -112,7 +113,7 @@ main{
    
     .mensaje-encriptado{
         height: 380px;
-        width: 660px;
+        width: 550px;
         border-color: var(--otro-blue);
         border-radius: 15px;
         display: block;
@@ -132,7 +133,7 @@ main{
         justify-content: center;
         height: 100%;
         position: absolute;
-        top: 12%;
+        top: 22%;
         left: 70%;
         text-align: center;
         }
@@ -170,10 +171,10 @@ button:hover {
 
 /*-----PIE DE PAGINA-----*/
 
-.footer {
-    height: 20%;
+.pie {
+    height:100%;
     width: 100%;
-    margin: 0;
+    margin-bottom: 0;
     padding: 8px;
     background-color: rgb(232, 231, 238);
     color: rgb(41, 42, 78);
