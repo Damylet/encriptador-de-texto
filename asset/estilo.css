@@ -28,7 +28,7 @@
 }
 
 body{
-    height: 500px;
+    height: 450px;
     background: var(--light-blue) ;
 }
 
@@ -58,7 +58,7 @@ h1{
 }
 
 .seccion{
-    height: 60%;
+    height: 40%;
     display: flex;
     justify-content: center;
     gap: 10px 5px;
@@ -74,7 +74,7 @@ main{
 
 .encriptador{
    
-    width: 60%;
+    width: 40%;
     margin: 3% 0 0 5%;
     
 }
@@ -82,7 +82,7 @@ main{
 .encriptar{
     margin-left: 50px;
     width: 550px ;
-    height: 380px;
+    height: 300px;
     font-size: 28px ;
     line-height: 48px ;
     outline: none;
@@ -101,7 +101,7 @@ main{
     #muñeco{
     height: 35%;
         position: absolute;
-        top: 32%;
+        top: 42%;
         left: 70%;
         z-index: 2;
     }
@@ -133,8 +133,8 @@ main{
         justify-content: center;
         height: 100%;
         position: absolute;
-        top: 22%;
-        left: 70%;
+        top: 35%;
+        left: 60%;
         text-align: center;
         }
         .btn-copiar {
